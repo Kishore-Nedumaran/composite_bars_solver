@@ -79,5 +79,5 @@ void main()
   cin>>b;
   compbar cbr;
   cbr.calc();
-  getch();
+  getch(); 
 }
