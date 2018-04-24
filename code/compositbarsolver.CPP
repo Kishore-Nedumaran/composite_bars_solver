@@ -64,10 +64,11 @@ class compbar
           }
        cb[0][5]=P/Kratio;                // S1=P/k_ratio;
        for(u=0;u<b;u++)
-          { if(u!=0){cb[u][5]=(cb[u][0]/cb[0][0])*cb[0][5];}
-              // S(x)=(E(x)/E1)*S1;
+          { if(u!=0)
+	      { cb[u][5]=(cb[u][0]/cb[0][0])*cb[0][5]; }
+                 // S(x)=(E(x)/E1)*S1;
             cb[u][6]=cb[u][5]*cb[u][2];
-              // P(x)=S(x)*A(x);
+             // P(x)=S(x)*A(x);
           }
         output();
       }
