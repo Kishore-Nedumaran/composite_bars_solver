@@ -77,7 +77,7 @@ void main()
 { clrscr();
   cout<<"\nEnter number of materials used:";
   cin>>b;
-  compbar cbr;
+  compbar cbr; 
   cbr.calc();
   getch(); 
 }
